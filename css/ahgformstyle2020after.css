@@ -1,0 +1,92 @@
+/* Headings */
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 200%;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 150%;
+	font-weight: bold;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 120%;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+/* Form basics */
+form {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+form ul {
+	list-style: none;
+	padding: 0;
+}
+
+form li {
+	margin-bottom: 1em;
+}
+
+/* Labels */
+label {
+	display: inline-block;
+	width: 200px;
+	font-weight: bold;
+}
+
+/* Required fields */
+label span[aria-hidden="true"] {
+	color: red;
+	margin-left: 0.25em;
+}
+
+/* Inputs & Textareas */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	padding: 0.5em;
+	border: 1px solid #999;
+	border-radius: 4px;
+	width: 60%;
+	font-size: 1em;
+}
+
+/* Focus styles for accessibility */
+textarea:focus,
+select:focus,
+input:focus {
+	color: #000;
+	background-color: #fff2a8 !important;
+	/* light yellow */
+	outline: solid #03C medium;
+	/* teal outline */
+	border-color: #03C;
+}
+
+/* Submit button */
+input[type="submit"] {
+	background-color: #03C;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0.75em 1.5em;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	background-color: #025a9b;
+}
